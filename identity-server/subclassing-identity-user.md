@@ -1,0 +1,3 @@
+# Subclassing IdentityUser
+
+IDS4 comes with a default class IdentityUser which we subclassed to be able to add some properties. What we didn't do is make sure the Id property got set, we only used SubjectId. We found out the hard way that the Identity Framework depends on the Id parameter and not setting it means that it'll get filled with a random Guid...
