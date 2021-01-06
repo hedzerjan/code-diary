@@ -3,6 +3,7 @@ Sometimes events may solve dependancy problems in your code. They are not a pana
 Pro:
 * Less explicit dependancies between classes.
 * Simplification of some parts of your code.
+
 Cons:
 * Code flow becomes harder tot read and debug.
 
