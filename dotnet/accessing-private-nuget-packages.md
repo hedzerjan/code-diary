@@ -6,6 +6,10 @@ Install the provider with:
 ```
 sh -c "$(curl -fsSL https://aka.ms/install-artifacts-credprovider.sh)"
 ```
+or the powershell command:
+```
+iex "& { $(irm https://aka.ms/install-artifacts-credprovider.ps1) }"
+```
 And then restore the packages with:
 ```
 dotnet restore --interactive
